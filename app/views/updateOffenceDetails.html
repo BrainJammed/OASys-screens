@@ -136,94 +136,58 @@ Case summary
 
 
 
-      <a href="garyDetails.html" class="govuk-back-link">Back</a>
-            <span class="govuk-caption-xl">Individual and case details</span>
-            <h1 class="govuk-heading-xl">Assessment details</h1>
+      <a href="psrCourt.html" class="govuk-back-link">Back</a>
+<!--             <span class="govuk-caption-xl">Individual and case details</span> -->
+            <h1 class="govuk-heading-xl">Update offence details</h1>
 
 
             
               <div class="govuk-grid-row">
                <div class="govuk-grid-column-two-thirds">
 
-                        <div class="govuk-!-margin-bottom-0">
+                <div class="govuk-form-group">
+                  <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                      <h1 class="govuk-fieldset__heading">
+                        Choose an offence
+                      </h1>
+                    </legend>
+<!--                   <label class="govuk-label" for="sort">
+                    Sort by
+                  </label> -->
+                  <select class="govuk-select" id="sort" name="sort">
+                    <option value="published">Recently published</option>
+                    <option value="updated" selected>Recently updated</option>
+                    <option value="views">Most views</option>
+                    <option value="comments">Most comments</option>
+                  </select>
+                </fieldset>
+                </div>
 
-                          <dl class="govuk-summary-list govuk-summary-list--no-border">
-                            <div class="govuk-summary-list__row">
-                              <dt class="govuk-summary-list__key">
-                                Purpose of assessment
-                              </dt>
-                              <dd class="govuk-summary-list__value">
-                                Risk of harm assessment
-                              </dd>
-                            </div>
+                 <div class="govuk-form-group">
+                  <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                      <h1 class="govuk-fieldset__heading">
+                        Choose a subcode
+                      </h1>
+                    </legend>
+<!--                   <label class="govuk-label" for="sort">
+                    Sort by
+                  </label> -->
+                  <select class="govuk-select" id="sort" name="sort">
+                    <option value="published">Recently published</option>
+                    <option value="updated" selected>Recently updated</option>
+                    <option value="views">Most views</option>
+                    <option value="comments">Most comments</option>
+                  </select>
+                </fieldset>
+                </div>
 
-                            <div class="govuk-summary-list__row">
-                              <dt class="govuk-summary-list__key">
-                                Assessor name
-                              </dt>
-                              <dd class="govuk-summary-list__value">
-                                Mark
-                              </dd>
-                            </div>
+                
 
-                            <div class="govuk-summary-list__row">
-                              <dt class="govuk-summary-list__key">
-                                Assessor position
-                              </dt>
-                              <dd class="govuk-summary-list__value">
-                                Position
-                              </dd>
-                            </div>
 
-                            <div class="govuk-summary-list__row">
-                              <dt class="govuk-summary-list__key">
-                                Telephone number
-                              </dt>
-                              <dd class="govuk-summary-list__value">
-                                01234 567 890
-                              </dd>
-                            </div>
 
-                            <div class="govuk-summary-list__row">
-                              <dt class="govuk-summary-list__key">
-                                Probation provider or prison
-                              </dt>
-                              <dd class="govuk-summary-list__value">
-                                Kent
-                              </dd>
-                            </div>
-
-                            <div class="govuk-summary-list__row">
-                              <dt class="govuk-summary-list__key">
-                                Criminal records office number (CRO)
-                              </dt>
-                              <dd class="govuk-summary-list__value">
-                                
-                              </dd>
-                            </div>
-
-                            <div class="govuk-summary-list__row">
-                              <dt class="govuk-summary-list__key">
-                                LDU
-                              </dt>
-                              <dd class="govuk-summary-list__value">
-                                Kent division 1
-                              </dd>
-                            </div>
-
-                            <div class="govuk-summary-list__row">
-                              <dt class="govuk-summary-list__key">
-                                Team
-                              </dt>
-                              <dd class="govuk-summary-list__value">
-                                Kent team B
-                              </dd>
-                            </div>
-                            <div class="govuk-!-padding-bottom-7"></div>
-                            <a href="updateAssessment.html" class="govuk-link">Update assessment</a>
-                          </dl>
-                        </div>
-
+                        
 
 
 
@@ -231,10 +195,10 @@ Case summary
 
   
 
-            <button class="govuk-button govuk-!-margin-right-1" data-module="govuk-button" onclick="location.href = 'sources.html';">Continue to select your sources</button>
+            <button class="govuk-button govuk-!-margin-right-1" data-module="govuk-button" onclick="location.href = 'sources.html';">Update assessment details</button>
 
-            <button class="govuk-button govuk-button--secondary" data-module="govuk-button" onclick="location.href = 'index.html';">
-              Back to assessment progress
+            <button class="govuk-button govuk-button--secondary" data-module="govuk-button" onclick="location.href = 'psrCourt.html';">
+              Cancel
             </button>
 
 
