@@ -27,6 +27,14 @@ $( document ).ready(function() {
     	$(".hiddenDate").hide();
 	});
 
+  $('.rsr').click(function() {
+     if($('#lduDiv1').is(':checked') && $('#kentTeamA').is(':checked')) 
+      { 
+        $("#button").attr("onclick","location.href = 'assessmentDetailsUpdated.html';");
+
+      }
+  });
+
 
 
 
