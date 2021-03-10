@@ -27,6 +27,14 @@ $( document ).ready(function() {
     	$(".hiddenDate").hide();
 	});
 
+  $("#childConYes").click(function(){
+      $(".childCon").show();
+  });
+
+  $("#childConNo").click(function(){
+      $(".childCon").hide();
+  });
+
   $('.rsr').click(function() {
      if($('#lduDiv1').is(':checked') && $('#kentTeamA').is(':checked')) 
       { 

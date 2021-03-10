@@ -134,324 +134,287 @@ Case summary
    <main class="govuk-main-wrapper govuk-main-wrapper--auto-spacing" id="main-content" role="main">
 
 
-      <div class="govuk-grid-row">
-        <div class="govuk-grid-column-full">
-           <h1 class="govuk-heading-xl">Assessment progress</h1>
-        </div>
-      </div>
+
+
+      <a href="knowChildrenRisk.html" class="govuk-back-link">Back</a>
+            <span class="govuk-caption-xl">ROSH full analysis</span>
+            <h1 class="govuk-heading-xl">Suicide and self-harm</h1>
+
+            <div class="govuk-form-group">
+                  <fieldset class="govuk-fieldset">
+                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                      <h1 class="govuk-fieldset__heading">
+                        Are there any current concerns about suicide?
+                      </h1>
+                    </legend>
+
+                    <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
+                      <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="where-do-you-live" name="fullAnalysis" type="radio" value="england" data-aria-controls="conditional-fullAnalysisYes">
+                        <label class="govuk-label govuk-radios__label" for="fullAnalysisYes" >
+                          Yes
+                        </label>
+                      </div>
+
+                      <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-fullAnalysisYes">
+                          <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
+                                <div class="govuk-form-group">
+                                  <label class="govuk-label" for="with-hint">
+                                    Describe circumstances, issues and needs that relate to current concerns
+                                  </label>
+                                  <textarea class="govuk-textarea govuk-js-character-count" id="with-hint" name="fullAnalysis" rows="5" aria-describedby="with-hint-info with-hint-hint"></textarea>
+                                </div>
+
+                                <div id="with-hint-info" class="govuk-hint govuk-character-count__message" aria-live="polite">
+                                  You can enter up to 4000 characters
+                                </div>
+
+                            </div>
+                      </div>
+
+                      <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="where-do-you-live-2" name="fullAnalysis" type="radio" value="scotland">
+                        <label class="govuk-label govuk-radios__label" for="where-do-you-live-2">
+                          No
+                        </label>
+                      </div>
+                      <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="where-do-you-live-3" name="fullAnalysis" type="radio" value="wales" data-aria-controls="conditional-fullAnalysisDont">
+                        <label class="govuk-label govuk-radios__label" for="fullAnalysisDont">
+                          Don't know
+                        </label>
+                      </div>
+                      <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-fullAnalysisDont">
+                          <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
+                                <div class="govuk-form-group">
+                                  <label class="govuk-label" for="with-hint">
+                                    Describe circumstances, issues and needs that relate to current concerns
+                                  </label>
+                                  <textarea class="govuk-textarea govuk-js-character-count" id="with-hint" name="fullAnalysis" rows="5" aria-describedby="with-hint-info with-hint-hint"></textarea>
+                                </div>
+
+                                <div id="with-hint-info" class="govuk-hint govuk-character-count__message" aria-live="polite">
+                                  You can enter up to 4000 characters
+                                </div>
+
+                            </div>
+                      </div>
+                    </div>
+
+                  </fieldset>
+                </div>
+
+                <div class="govuk-form-group">
+                  <fieldset class="govuk-fieldset">
+                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                      <h1 class="govuk-fieldset__heading">
+                        Are there any current concerns about self-harm?
+                      </h1>
+                    </legend>
+
+                    <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
+                      <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="where-do-you-live" name="selfHarmConcerns" type="radio" value="england" data-aria-controls="conditional-selfHarmConcernsYes">
+                        <label class="govuk-label govuk-radios__label" for="selfHarmConcernsYes" >
+                          Yes
+                        </label>
+                      </div>
+
+                      <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-selfHarmConcernsYes">
+                          <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
+                                <div class="govuk-form-group">
+                                  <label class="govuk-label" for="with-hint">
+                                    Describe circumstances, issues and needs that relate to current concerns
+                                  </label>
+                                  <textarea class="govuk-textarea govuk-js-character-count" id="with-hint" name="fullAnalysis" rows="5" aria-describedby="with-hint-info with-hint-hint"></textarea>
+                                </div>
+
+                                <div id="with-hint-info" class="govuk-hint govuk-character-count__message" aria-live="polite">
+                                  You can enter up to 4000 characters
+                                </div>
+
+                            </div>
+                      </div>
+
+                      <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="where-do-you-live-2" name="selfHarmConcerns" type="radio" value="scotland">
+                        <label class="govuk-label govuk-radios__label" for="where-do-you-live-2">
+                          No
+                        </label>
+                      </div>
+                      <div class="govuk-radios__item">
+                        <input class="govuk-radios__input" id="where-do-you-live-3" name="selfHarmConcerns" type="radio" value="wales" data-aria-controls="conditional-selfHarmConcernsDont">
+                        <label class="govuk-label govuk-radios__label" for="selfHarmConcernsDont">
+                          Don't know
+                        </label>
+                      </div>
+                      <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-selfHarmConcernsDont">
+                          <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
+                                <div class="govuk-form-group">
+                                  <label class="govuk-label" for="with-hint">
+                                    Describe circumstances, issues and needs that relate to current concerns
+                                  </label>
+                                  <textarea class="govuk-textarea govuk-js-character-count" id="with-hint" name="selfHarmConcerns" rows="5" aria-describedby="with-hint-info with-hint-hint"></textarea>
+                                </div>
+
+                                <div id="with-hint-info" class="govuk-hint govuk-character-count__message" aria-live="polite">
+                                  You can enter up to 4000 characters
+                                </div>
+
+                            </div>
+                      </div>
+                    </div>
+
+                  </fieldset>
+                </div>
+
+                <div class="govuk-form-group">
+                <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+                  <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                    <h1 class="govuk-fieldset__heading">
+                      Is there a current ACCT (Assessment, Care in Custody and Teamwork)?                 
+                    </h1>
+                  </legend>
+                  <div class="govuk-radios govuk-radios--inline">
+                    <div class="govuk-radios__item">
+                      <input class="govuk-radios__input" id="sexualOffenceYes" name="sexualOffence" type="radio" value="yes">
+                      <label class="govuk-label govuk-radios__label" for="changed-name">
+                        Yes
+                      </label>
+                    </div>
+                    <div class="govuk-radios__item">
+                      <input class="govuk-radios__input" id="sexualOffenceNo" name="sexualOffence" type="radio" value="no">
+                      <label class="govuk-label govuk-radios__label" for="changed-name-2">
+                        No
+                      </label>
+                    </div>
+                  </div>
+
+                </fieldset>
+              </div>
+
+
+              <div class="govuk-form-group">
+                    <fieldset class="govuk-fieldset" aria-describedby="fullRisk-hint">
+                      <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                        <h1 class="govuk-fieldset__heading">
+                          Have there been any concerns about suicide in the past?
+                        </h1>
+                      </legend>
+                      <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="fullRisk" name="fullRisk" type="radio" value="email" data-aria-controls="conditional-fullRiskYes">
+                          <label class="govuk-label govuk-radios__label" for="fullRiskYes">
+                            Yes
+                          </label>
+                        </div>
+                        <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-fullRiskYes">
+                          <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
+                                <div class="govuk-form-group">
+                                  <label class="govuk-label" for="with-hint">
+                                    Give details
+                                  </label>
+                                  <textarea class="govuk-textarea govuk-js-character-count" id="with-hint" name="fullRisk" rows="5" aria-describedby="with-hint-info with-hint-hint"></textarea>
+                                </div>
+
+                                <div id="with-hint-info" class="govuk-hint govuk-character-count__message" aria-live="polite">
+                                  You can enter up to 4000 characters
+                                </div>
+
+                            </div>
+                      </div>
+
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="contact-2" name="fullRisk" type="radio" value="phone" >
+                          <label class="govuk-label govuk-radios__label" for="contact-2">
+                            No
+                          </label>
+                        </div>
+                       
+                      </div>
+
+                    </fieldset>
+                  </div>
+
+                  <div class="govuk-form-group">
+                    <fieldset class="govuk-fieldset" aria-describedby="fullRisk-hint">
+                      <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                        <h1 class="govuk-fieldset__heading">
+                          Have there been any concerns about self-harm in the past?
+                        </h1>
+                      </legend>
+                      <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="fullRisk" name="fullRisk" type="radio" value="email" data-aria-controls="conditional-fullRiskYes">
+                          <label class="govuk-label govuk-radios__label" for="fullRiskYes">
+                            Yes
+                          </label>
+                        </div>
+                        <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-fullRiskYes">
+                          <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
+                                <div class="govuk-form-group">
+                                  <label class="govuk-label" for="with-hint">
+                                    Give details
+                                  </label>
+                                  <textarea class="govuk-textarea govuk-js-character-count" id="with-hint" name="fullRisk" rows="5" aria-describedby="with-hint-info with-hint-hint"></textarea>
+                                </div>
+
+                                <div id="with-hint-info" class="govuk-hint govuk-character-count__message" aria-live="polite">
+                                  You can enter up to 4000 characters
+                                </div>
+
+                            </div>
+                      </div>
+
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="contact-2" name="fullRisk" type="radio" value="phone" >
+                          <label class="govuk-label govuk-radios__label" for="contact-2">
+                            No
+                          </label>
+                        </div>
+                       
+                      </div>
+
+                    </fieldset>
+                  </div>
+
 
 
             
+
+            
               <div class="govuk-grid-row">
-               <div class="govuk-grid-column-full">
-                
+               <div class="govuk-grid-column-two-thirds">
 
 
+ 
+
+
+
+
+                 
+                   
+              </div>
+            </div>
+
+
+
+                <button class="govuk-button govuk-!-margin-right-1" data-module="govuk-button" onclick="location.href = 'suicide.html';">Save and Continue</button>
+
+                <button class="govuk-button govuk-button--secondary" data-module="govuk-button" onclick="location.href = 'indexSection5.html';">
+                  Back to assessment progress
+                </button>
           
 
 
 
 
-      <h2 class="govuk-heading-s govuk-!-margin-bottom-2">Assessment incomplete</h2>
-      <p class="govuk-body govuk-!-margin-bottom-7">You have completed 0 of 5 sections.</p>
-
-      <ol class="app-task-list">
-       
-        <li>
-          <h2 class="app-task-list__section">
-            <span class="app-task-list__section-number">1. </span> Individual and case details
-          </h2>
-          <ul class="app-task-list__items">
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="garyDetails.html" aria-describedby="eligibility-status">
-                  Gary's details
-                </a>
-              </span>
-             <!--  <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong> -->
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="assessmentDetails.html" aria-describedby="read-declaration-status">
-                  Assessment details
-                </a>
-              </span>
-              <!-- <strong class="govuk-tag govuk-tag--grey app-task-list__tag " id="list-convictions-status">Not started</strong> -->
-            </li>
-          </ul>
-        </li>
-
-        <li>
-          <h2 class="app-task-list__section">
-            <span class="app-task-list__section-number">2. </span> Sources of information
-          </h2>
-          <ul class="app-task-list__items">
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="sources.html" aria-describedby="company-information-status">
-                  Select sources
-                </a>
-              </span>
-              <strong class="govuk-tag app-task-list__tag" id="eligibility-status">Completed</strong>
-            </li>
-          </ul>
-        </li>
-
-
-        <li>
-          <h2 class="app-task-list__section">
-            <span class="app-task-list__section-number">3. </span> Offences, convictions and needs
-          </h2>
-          <ul class="app-task-list__items">
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="psrCourt.html" aria-describedby="eligibility-status">
-                  Offences and convictions
-                </a>
-              </span>
-              <strong class="govuk-tag app-task-list__tag" id="eligibility-status">Completed</strong>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="needs.html" aria-describedby="read-declaration-status">
-                  Needs
-                </a>
-              </span>
-              <strong class="govuk-tag app-task-list__tag" id="eligibility-status">Completed</strong>
-            </li>
-          </ul>
-        </li>
-
-         <li>
-          <h2 class="app-task-list__section">
-            <span class="app-task-list__section-number">4. </span> ROSH screening
-          </h2>
-          <ul class="app-task-list__items">
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="riskToOthers.html" aria-describedby="eligibility-status">
-                  Risk to others
-                </a>
-              </span>
-              <strong class="govuk-tag app-task-list__tag" id="eligibility-status">Completed</strong>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="riskToself.html" aria-describedby="read-declaration-status">
-                  Risk to self
-                </a>
-              </span>
-              <strong class="govuk-tag app-task-list__tag" id="eligibility-status">Completed</strong>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="otherRisks.html" aria-describedby="read-declaration-status">
-                  Other risks
-                </a>
-              </span>
-              <strong class="govuk-tag app-task-list__tag" id="eligibility-status">Completed</strong>
-            </li>
-          </ul>
-        </li>
-
-        <li>
-          <h2 class="app-task-list__section">
-            <span class="app-task-list__section-number">5. </span> ROSH full analysis
-          </h2>
-          <ul class="app-task-list__items">
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="currentBehaviour.html" aria-describedby="eligibility-status">
-                  Current behaviour
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                Current behaviour
-              </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="previousBehaviour.html" aria-describedby="read-declaration-status">
-                  Previous behaviour
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                Previous behaviour
-              </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="knowChildrenRisk.html" aria-describedby="read-declaration-status">
-                  Risk to children whose identity is known
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                Risk to children whose identity is known
-              </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="detailsOfChildren.html" aria-describedby="read-declaration-status">
-                  Details of children at risk of serious harm
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                Details of children at risk of serious harm
-              </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="suicide.html" aria-describedby="read-declaration-status">
-                  Suicide and self-harm
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                Suicide and self-harm
-              </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="" aria-describedby="read-declaration-status">
-                  Coping in custody or a hostel setting
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                Coping in custody or a hostel setting
-              </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="" aria-describedby="read-declaration-status">
-                  Vulnerability
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                  Vulnerability
-                </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="" aria-describedby="read-declaration-status">
-                  Escape and abscond
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                  Escape and abscond
-                </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="" aria-describedby="read-declaration-status">
-                  Control issues or disruptive behaviour
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                  Control issues or disruptive behaviour
-                </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="" aria-describedby="read-declaration-status">
-                  Breach of trust
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                  Breach of trust
-                </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="" aria-describedby="read-declaration-status">
-                  Risk summary
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                  Risk summary
-                </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="" aria-describedby="read-declaration-status">
-                  Imminence, circumstances and other factors
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                  Imminence, circumstances and other factors
-                </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="" aria-describedby="read-declaration-status">
-                  ROSH scores
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                  ROSH scores
-                </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            </li>
-            <li class="app-task-list__item">
-              <span class="app-task-list__task-name">
-                <a href="" aria-describedby="read-declaration-status">
-                  Risk management issues
-                </a>
-<!--                 <span class="app-task-list__task-name">
-                  Risk management issues
-                </span> -->
-              </span>
-              <strong class="govuk-tag govuk-tag--grey app-task-list__tag" id="list-convictions-status">Not started</strong>
-            </li>
-            </li>
-          </ul>
-        </li>
-
-
-      
 
 
         </main>
       </div>
 
 
-
-
-
-
-
-    </div>
-  </div>
-
-
-
-
-
-
-        </main>
-      </div>
     
 
     

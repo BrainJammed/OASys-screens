@@ -432,13 +432,13 @@ Case summary
                         </legend>
                         <div class="govuk-radios govuk-radios--inline">
                           <div class="govuk-radios__item">
-                            <input class="govuk-radios__input" id="changed-name" name="changed-name" type="radio" value="yes">
+                            <input class="govuk-radios__input" id="childConYes" name="childConf" type="radio" value="yes">
                             <label class="govuk-label govuk-radios__label" for="changed-name">
                               Yes
                             </label>
                           </div>
                           <div class="govuk-radios__item">
-                            <input class="govuk-radios__input" id="changed-name-2" name="changed-name" type="radio" value="no">
+                            <input class="govuk-radios__input" id="childConNo" name="childConf" type="radio" value="no">
                             <label class="govuk-label govuk-radios__label" for="changed-name-2">
                               No
                             </label>
@@ -448,7 +448,7 @@ Case summary
                       </fieldset>
                     </div>
 
-                    <div class="govuk-!-margin-bottom-0">
+                    <div class="govuk-!-margin-bottom-0 childCon">
                         <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
                             <div class="govuk-form-group">
                                 <h1 class="govuk-label-wrapper">
@@ -464,6 +464,97 @@ Case summary
                             </div>
                         </div>
                     </div>
+
+                    <div class="govuk-!-margin-bottom-0">
+                        <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
+                            <div class="govuk-form-group">
+                                <h1 class="govuk-label-wrapper">
+                                    <label class="govuk-label govuk-label--m" for="more-detail">
+                                        Local Authority Children’s Services  key worker name, address and telephone number, if applicable
+                                    </label>
+                                </h1>
+                                    <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
+                            </div>
+
+                            <div id="with-hint-info" class="govuk-hint govuk-character-count__message" aria-live="polite">
+                                You can enter up to 4000 characters
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="govuk-!-margin-bottom-0">
+                        <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
+                            <div class="govuk-form-group">
+                                <h1 class="govuk-label-wrapper">
+                                    <label class="govuk-label govuk-label--m" for="more-detail">
+                                        Other agencies and personnel involved, if applicable
+                                    </label>
+                                </h1>
+                                    <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
+                            </div>
+
+                            <div id="with-hint-info" class="govuk-hint govuk-character-count__message" aria-live="polite">
+                                You can enter up to 4000 characters
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="govuk-!-margin-bottom-0">
+                        <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
+                            <div class="govuk-form-group">
+                                <h1 class="govuk-label-wrapper">
+                                    <label class="govuk-label govuk-label--m" for="more-detail">
+                                        Additional information
+                                    </label>
+                                </h1>
+                                    <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
+                            </div>
+
+                            <div id="with-hint-info" class="govuk-hint govuk-character-count__message" aria-live="polite">
+                                You can enter up to 4000 characters
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="govuk-form-group">
+                    <fieldset class="govuk-fieldset" role="group" aria-describedby="passport-issued-hint">
+                      <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                        <h1 class="govuk-fieldset__heading">
+                          Date that child protection issues came to assessor’s attention
+                        </h1>
+                      </legend>
+                      <div id="passport-issued-hint" class="govuk-hint">
+                        For example, 12 11 2007
+                      </div>
+                      <div class="govuk-date-input" id="passport-issued">
+                        <div class="govuk-date-input__item">
+                          <div class="govuk-form-group">
+                            <label class="govuk-label govuk-date-input__label" for="passport-issued-day">
+                              Day
+                            </label>
+                            <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-day" name="passport-issued-day" type="text" pattern="[0-9]*" inputmode="numeric"></div>
+                        </div>
+                        <div class="govuk-date-input__item">
+                          <div class="govuk-form-group">
+                            <label class="govuk-label govuk-date-input__label" for="passport-issued-month">
+                              Month
+                            </label>
+                            <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-month" name="passport-issued-month" type="text" pattern="[0-9]*" inputmode="numeric"></div>
+                        </div>
+                        <div class="govuk-date-input__item">
+                          <div class="govuk-form-group">
+                            <label class="govuk-label govuk-date-input__label" for="passport-issued-year">
+                              Year
+                            </label>
+                            <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="passport-issued-year" name="passport-issued-year" type="text" pattern="[0-9]*" inputmode="numeric"></div>
+                        </div>
+                      </div>
+
+                    </fieldset>
+                  </div>
+
+
+
 
                  
                    
