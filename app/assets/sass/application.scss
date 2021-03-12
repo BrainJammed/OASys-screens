@@ -23,6 +23,128 @@ $govuk-assets-path: '/govuk/assets/';
 // moj components
 @import "node_modules/@ministryofjustice/frontend/moj/all";
 
+// SCORES
+
+.scores {
+	border-top: 2px solid #0c0b0b;
+	border-bottom: 2px solid #0c0b0b;
+	margin-bottom: 30px;
+}
+
+.scoresGrid {
+/*    margin-bottom: 20px;*/
+    margin-top: 20px;
+}
+
+.scoresWidth {
+	width: 20px;
+}
+
+.govuk-data {
+
+}
+
+.govuk-data--high {
+    .govuk-data-value, .govuk-data-label {
+        color: govuk-colour("red");
+    }
+}
+
+.govuk-data--medium {
+    .govuk-data-value, .govuk-data-label {
+        color: govuk-colour("orange");
+    }
+}
+
+.govuk-data--low {
+
+        color: govuk-colour("green");
+
+}
+
+.scoreLow {
+	padding-top: 0px !important;
+	margin-bottom: 0px;
+}
+
+.scoreSummary {
+	margin-bottom: 5px !important;
+}
+
+.scoreName {
+	color: #6F777B;
+}
+
+.icono {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  color: #666;
+  box-sizing: border-box;
+  transform: rotate(135deg);
+  float: right;
+    top: -39px;
+    right: 150px;
+  &:after, &:before {
+    content: "";
+    box-sizing: border-box;
+  }
+}
+
+.icono-arrow1 {
+  width: 20px;
+  height: 20px;
+  border-width: 4px 4px 0 0;
+  border-style: solid;
+  margin: 10px;
+
+  &:before{
+    right: 0;
+    top: -3px;
+    position: absolute;
+    height: 4px;
+    box-shadow: inset 0 0 0 32px;
+    transform: rotate(-45deg);
+    width: 23px;
+    transform-origin: right top;
+}
+  }
+
+
+
+
+/*.govuk-data--veryHigh {
+    .govuk-data-value, .govuk-data-label {
+        color: govuk-colour("green");
+    }
+}*/
+
+.govuk-data-value {
+    @extend .govuk-heading-m;
+    margin-bottom: 0;
+}
+
+.govuk-data-label {
+
+}
+
+.govuk-grid-column-one-sixth {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    padding: 0 $govuk-gutter-half;
+
+    @include govuk-media-query($from: tablet) {
+        width: 16.6666%;
+        float: left;
+    }
+}
+
+
+.app-content {
+	padding: 20px;
+}
+
 //USER BANNER
 
 .app-phase-tag {
