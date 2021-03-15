@@ -15,17 +15,47 @@ $(document).ready(function () {
 
 $( document ).ready(function() {
 
+   $("#act1997Yes").click(function(){
+      $(".registered").show();
+  });
+
+  $("#act1997No").click(function(){
+      $(".registered").hide();
+  });
 
 
+  $("#criticalPPRefferNo").click(function(){
+      $(".preRelease").show();
+  });
+
+  $("#criticalPPRefferYes").click(function(){
+      $(".preRelease").hide();
+  });
 
     
-  $("#sexualOffenceYes").click(function(){
-    	$(".hiddenDate").show();
+  $("#criticalPPNo").click(function(){
+    	$(".criticalPP").show();
 	});
 
-	$("#sexualOffenceNo").click(function(){
-    	$(".hiddenDate").hide();
+	$("#criticalPPYes").click(function(){
+    	$(".criticalPP").hide();
 	});
+
+    $("#hasBeenReferredNo").click(function(){
+      $(".shouldReferA").show();
+  });
+
+  $("#hasBeenReferredYes").click(function(){
+      $(".shouldReferA").hide();
+  });
+
+    $("#sexualOffenceYes").click(function(){
+      $(".hiddenDate").show();
+  });
+
+  $("#sexualOffenceNo").click(function(){
+      $(".hiddenDate").hide();
+  });
 
   $("#childConYes").click(function(){
       $(".childCon").show();
