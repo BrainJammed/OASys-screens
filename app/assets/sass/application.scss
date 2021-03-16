@@ -240,7 +240,19 @@ $govuk-assets-path: '/govuk/assets/';
 }
 
 //CHECK ANSWERS
+.govuk-summary-list__key_header {
+	color: #0c0b0b !important;
+}
 
 .govuk-summary-list__key {
 	font-weight: 400 !important;
+	color: #505a5f;
+}
+
+.fontWeight {
+	font-weight: 700 !important;
+}
+
+.govuk-summary-list__value {
+
 }
