@@ -109,6 +109,14 @@ $( document ).ready(function() {
       }
   });
 
+  $('.riskAssess').click(function() {
+     if($('#riskassessmentNo').is(':checked') && $('#interviewYes').is(':checked') && $('#weaponNo').is(':checked')) 
+      { 
+        $("#button").attr("onclick","location.href = 'checkNoRiskAssessment3.html';");
+
+      }
+  });
+
   //if 180 is yes
   $('.appropriateToDoFullRiskOhHarm').click(function() {
      if($('#fullRiskYes').is(':checked')) 
