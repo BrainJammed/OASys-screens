@@ -15,12 +15,20 @@ $(document).ready(function () {
 
 $( document ).ready(function() {
 
-   $("#interviewYes").click(function(){
+  $("#interviewYes").click(function(){
       $(".hiddenWeapon").show();
   });
 
   $("#interviewNo").click(function(){
       $(".hiddenWeapon").hide();
+  });
+
+  $("#weaponYes").click(function(){
+      $(".hiddenNeeds").show();
+  });
+
+  $("#weaponNo").click(function(){
+      $(".hiddenNeeds").hide();
   });
 
    $("#act1997Yes").click(function(){
@@ -89,6 +97,14 @@ $( document ).ready(function() {
      if($('#riskassessmentNo').is(':checked')) 
       { 
         $("#button").attr("onclick","location.href = 'checkNoRiskAssessment.html';");
+
+      }
+  });
+
+  $('.riskAssess').click(function() {
+     if($('#riskassessmentNo').is(':checked') && $('#interviewNo').is(':checked')) 
+      { 
+        $("#button").attr("onclick","location.href = 'checkNoRiskAssessment2.html';");
 
       }
   });
