@@ -320,7 +320,7 @@ Case summary
 
 
 
-                <div class="govuk-form-group">
+                <div class="govuk-form-group appropriateToDoFullRiskOhHarm">
                     <fieldset class="govuk-fieldset" aria-describedby="fullRisk-hint">
                       <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
                         <h1 class="govuk-fieldset__heading">
@@ -329,7 +329,7 @@ Case summary
                       </legend>
                       <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
                         <div class="govuk-radios__item">
-                          <input class="govuk-radios__input" id="fullRisk" name="fullRisk" type="radio" value="email" data-aria-controls="conditional-fullRiskYes">
+                          <input class="govuk-radios__input" id="fullRiskYes" name="fullRisk" type="radio" value="180Yes" data-aria-controls="conditional-fullRiskYes">
                           <label class="govuk-label govuk-radios__label" for="fullRiskYes">
                             Yes
                           </label>
@@ -351,7 +351,7 @@ Case summary
                       </div>
 
                         <div class="govuk-radios__item">
-                          <input class="govuk-radios__input" id="contact-2" name="fullRisk" type="radio" value="phone" >
+                          <input class="govuk-radios__input" id="fullRiskNo" name="fullRisk" type="radio" value="180No" >
                           <label class="govuk-label govuk-radios__label" for="contact-2">
                             No
                           </label>
@@ -373,7 +373,7 @@ Case summary
 
               
 
-                <button class="govuk-button govuk-!-margin-right-1" data-module="govuk-button" onclick="location.href = 'currentBehaviour.html';">Save and Continue</button>
+                <button class="govuk-button govuk-!-margin-right-1" id="button" data-module="govuk-button" onclick="location.href = 'currentBehaviour.html';">Save and Continue</button>
 
                 <button class="govuk-button govuk-button--secondary" data-module="govuk-button" onclick="location.href = 'index.html';">
                   Back to assessment progress

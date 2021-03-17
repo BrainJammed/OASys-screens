@@ -73,6 +73,27 @@ $( document ).ready(function() {
       }
   });
 
+//BUSINESS LOGIC
+
+
+  //if no risk assessment is completed
+  $('.riskAssess').click(function() {
+     if($('#riskassessmentNo').is(':checked')) 
+      { 
+        $("#button").attr("onclick","location.href = 'checkNoRiskAssessment.html';");
+
+      }
+  });
+
+  //if 180 is yes
+  $('.appropriateToDoFullRiskOhHarm').click(function() {
+     if($('#fullRiskYes').is(':checked')) 
+      { 
+        $("#button").attr("onclick","location.href = 'previousBehaviour2.html';");
+
+      }
+  });
+
 
 
 
