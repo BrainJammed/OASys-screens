@@ -15,6 +15,14 @@ $(document).ready(function () {
 
 $( document ).ready(function() {
 
+   $("#interviewYes").click(function(){
+      $(".hiddenWeapon").show();
+  });
+
+  $("#interviewNo").click(function(){
+      $(".hiddenWeapon").hide();
+  });
+
    $("#act1997Yes").click(function(){
       $(".registered").show();
   });
@@ -94,6 +102,14 @@ $( document ).ready(function() {
       }
   });
 
+  //If 165.1 is no (Risk to others)
+  $('.contactWithChild').click(function() {
+     if($('#1651No').is(':checked')) 
+      { 
+        $("#button").attr("onclick","location.href = 'riskToselfNo1516.html';");
+
+      }
+  });
 
 
 

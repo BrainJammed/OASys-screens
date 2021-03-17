@@ -23,6 +23,12 @@ $govuk-assets-path: '/govuk/assets/';
 // moj components
 @import "node_modules/@ministryofjustice/frontend/moj/all";
 
+//NEEDS
+
+.hiddenWeapon {
+  display: none;
+}
+
 // SCORES
 
 .scores {
