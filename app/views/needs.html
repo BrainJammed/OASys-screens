@@ -391,6 +391,72 @@ Case summary
                       </fieldset>
                     </div>
 
+                    <div class="govuk-form-group hiddenNeeds">
+                        <fieldset class="govuk-fieldset" aria-describedby="contact-hint">
+                          <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                            <h1 class="govuk-fieldset__heading">
+                              Is the person's current use of alcohol a problem?
+                            </h1>
+                          </legend>
+
+
+                          <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
+                            <div class="govuk-radios__item">
+                              <input class="govuk-radios__input" id="contact" name="drinkingproblem" type="radio" value="email" data-aria-controls="conditional-contact">
+                              <label class="govuk-label govuk-radios__label" for="suitabilityAccom">
+                                No problems
+                              </label>
+                            </div>
+                           
+                            <div class="govuk-radios__item">
+                              <input class="govuk-radios__input" id="contact-2" name="drinkingproblem" type="radio" value="phone" data-aria-controls="conditional-drinkingproblemSome">
+                              <label class="govuk-label govuk-radios__label" for="drinkingproblemSome">
+                                Some problems
+                              </label>
+                            </div>
+                            <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-drinkingproblemSome">
+                              <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
+                                    <div class="govuk-form-group">
+                                      <label class="govuk-label" for="with-hint">
+                                        Give details
+                                      </label>
+                                      <textarea class="govuk-textarea govuk-js-character-count" id="with-hint" name="with-hint" rows="5" aria-describedby="with-hint-info with-hint-hint"></textarea>
+                                    </div>
+
+                                    <div id="with-hint-info" class="govuk-hint govuk-character-count__message" aria-live="polite">
+                                      You can enter up to 4000 characters
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="govuk-radios__item">
+                              <input class="govuk-radios__input" id="contact-3" name="drinkingproblem" type="radio" value="text" data-aria-controls="conditional-drinkingproblemSign">
+                              <label class="govuk-label govuk-radios__label" for="drinkingproblemSign">
+                                Significant problems
+                              </label>
+                            </div>
+                            <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-drinkingproblemSign">
+                              <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
+                                    <div class="govuk-form-group">
+                                      <label class="govuk-label" for="with-hint">
+                                        Give details
+                                      </label>
+                                      <textarea class="govuk-textarea govuk-js-character-count" id="with-hint" name="with-hint" rows="5" aria-describedby="with-hint-info with-hint-hint"></textarea>
+                                    </div>
+
+                                    <div id="with-hint-info" class="govuk-hint govuk-character-count__message" aria-live="polite">
+                                      You can enter up to 4000 characters
+                                    </div>
+
+                                </div>
+                          </div>
+
+                        </fieldset>
+                      </div>
+
                          <div class="govuk-form-group hiddenNeeds">
                         <fieldset class="govuk-fieldset" aria-describedby="contact-hint">
                           <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
@@ -468,20 +534,20 @@ Case summary
 
                           <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
                             <div class="govuk-radios__item">
-                              <input class="govuk-radios__input" id="contact" name="bingeDrinking" type="radio" value="email" data-aria-controls="conditional-contact">
+                              <input class="govuk-radios__input" id="contact" name="impulsivity" type="radio" value="email" data-aria-controls="conditional-contact">
                               <label class="govuk-label govuk-radios__label" for="bingeDrinking">
                                 No problems
                               </label>
                             </div>
                            
                             <div class="govuk-radios__item">
-                              <input class="govuk-radios__input" id="contact-2" name="bingeDrinking" type="radio" value="phone" data-aria-controls="conditional-bingeDrinking2">
-                              <label class="govuk-label govuk-radios__label" for="bingeDrinking2">
+                              <input class="govuk-radios__input" id="contact-2" name="impulsivity" type="radio" value="phone" data-aria-controls="conditional-drinkingproblemSignSome">
+                              <label class="govuk-label govuk-radios__label" for="drinkingproblemSignSome">
                                 Some problems
                               </label>
                             </div>
 
-                            <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-bingeDrinking2">
+                            <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-drinkingproblemSignSome">
                               <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
                                     <div class="govuk-form-group">
                                       <label class="govuk-label" for="with-hint">
@@ -500,12 +566,12 @@ Case summary
 
 
                             <div class="govuk-radios__item">
-                              <input class="govuk-radios__input" id="contact-3" name="bingeDrinking" type="radio" value="text" data-aria-controls="conditional-bingeDrinking3">
-                              <label class="govuk-label govuk-radios__label" for="bingeDrinking3">
+                              <input class="govuk-radios__input" id="contact-3" name="impulsivity" type="radio" value="text" data-aria-controls="conditional-drinkingproblemSignSign">
+                              <label class="govuk-label govuk-radios__label" for="drinkingproblemSignSign">
                                 Significant problems
                               </label>
                             </div>
-                            <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-bingeDrinking3">
+                            <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-drinkingproblemSignSign">
                               <div class="govuk-character-count" data-module="govuk-character-count" data-maxlength="4000">
                                     <div class="govuk-form-group">
                                       <label class="govuk-label" for="with-hint">
