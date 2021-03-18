@@ -15,19 +15,13 @@ $(document).ready(function () {
 
 $( document ).ready(function() {
 
+
+
   $("#interviewYes").click(function(){
-      $(".hiddenWeapon").show();
-  });
-
-  $("#interviewNo").click(function(){
-      $(".hiddenWeapon").hide();
-  });
-
-  $("#weaponYes").click(function(){
       $(".hiddenNeeds").show();
   });
 
-  $("#weaponNo").click(function(){
+  $("#interviewNo").click(function(){
       $(".hiddenNeeds").hide();
   });
 
