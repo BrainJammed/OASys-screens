@@ -209,7 +209,7 @@ Case summary
                       </fieldset>
                     </div>
 
-                 <div class="govuk-form-group hiddenNeeds">
+                <!--  <div class="govuk-form-group hiddenNeeds">
                         <fieldset class="govuk-fieldset" aria-describedby="contact-hint">
                           <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
                             <h1 class="govuk-fieldset__heading">
@@ -272,6 +272,40 @@ Case summary
                                 </div>
                           </div>
 
+                        </fieldset>
+                      </div> -->
+
+                      <div class="govuk-form-group temperIssues hiddenNeeds">
+                        <fieldset class="govuk-fieldset" aria-describedby="contact-hint">
+                          <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                            <h1 class="govuk-fieldset__heading">
+                              Is the individual living in suitable accommodation?
+                            </h1>
+                          </legend>
+
+
+                          <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
+                            <div class="govuk-radios__item">
+                              <input class="govuk-radios__input" id="contact" name="contact" type="radio" value="email" data-aria-controls="conditional-contact">
+                              <label class="govuk-label govuk-radios__label" for="contact">
+                                No problems
+                              </label>
+                            </div>
+                           
+                            <div class="govuk-radios__item">
+                              <input class="govuk-radios__input" id="temperSome" name="contact" type="radio" value="phone" data-aria-controls="conditional-temperSome">
+                              <label class="govuk-label govuk-radios__label" for="temperSome">
+                                Some problems
+                              </label>
+                            </div>
+
+                            <div class="govuk-radios__item">
+                              <input class="govuk-radios__input" id="temperSignificant" name="contact" type="radio" value="text" data-aria-controls="conditional-temperSignificant">
+                              <label class="govuk-label govuk-radios__label" for="contact-3">
+                                Significant problems
+                              </label>
+                            </div>
+                           
                         </fieldset>
                       </div>
 
