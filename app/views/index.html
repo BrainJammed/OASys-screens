@@ -134,11 +134,7 @@ Case summary
    <main class="govuk-main-wrapper govuk-main-wrapper--auto-spacing" id="main-content" role="main">
 
 
-      <div class="govuk-grid-row">
-        <div class="govuk-grid-column-full">
-           
-        </div>
-      </div>
+     
 
 
             
@@ -157,38 +153,35 @@ Case summary
                         Choose an area
                       </h1>
                     </legend>
-                    <div id="changed-name-hint" class="govuk-hint">
-                      Select one area
-                    </div>
-                    <div class="govuk-radios">
-                      <div class="govuk-radios__item">
-                        <input class="govuk-radios__input" id="where-do-you-live" name="where-do-you-live" type="radio" value="england">
-                        <label class="govuk-label govuk-radios__label" for="where-do-you-live">
-                          Area A
-                        </label>
-                      </div>
-                      <div class="govuk-radios__item">
-                        <input class="govuk-radios__input" id="where-do-you-live-2" name="where-do-you-live" type="radio" value="scotland">
-                        <label class="govuk-label govuk-radios__label" for="where-do-you-live-2">
-                          Area B
-                        </label>
-                      </div>
-                      <div class="govuk-radios__item">
-                        <input class="govuk-radios__input" id="where-do-you-live-3" name="where-do-you-live" type="radio" value="wales">
-                        <label class="govuk-label govuk-radios__label" for="where-do-you-live-3">
-                          Area C
-                        </label>
-                      </div>
-                      <div class="govuk-radios__item">
-                        <input class="govuk-radios__input" id="where-do-you-live-4" name="where-do-you-live" type="radio" value="northern-ireland">
-                        <label class="govuk-label govuk-radios__label" for="where-do-you-live-4">
-                          Area D
-                        </label>
-                      </div>
-                    </div>
-
                   </fieldset>
+
+                  <div class="govuk-form-group">
+<!--                     <label class="govuk-label" for="sort">
+                      Sort by
+                    </label> -->
+                    <select class="govuk-select" id="sort" name="sort">
+                      <option value="published">Leicestershire</option>
+                      <option value="published">Lewes (HMP)</option>
+                      <option value="published">Lincolnshire</option>
+                      <option value="published">Lindholme (HMP)</option>
+                      <option value="published">Liverpool (HMP)</option>
+                      <option value="published">London</option>
+                      <option value="published">Low Newton (HMP)</option>
+                      <option value="published">Merseyside</option>
+                      <option value="published">Merseyside CRC</option>
+                      <option value="published">Moorland (HMP)</option>
+                      <option value="published">Morton hall (HMP)</option>
+                      <option value="published">New hall (HMP)</option>
+                      <option value="updated" selected>Norfolk</option>
+                      <option value="views">Norfolk and Suffolk CRC</option>
+                      <option value="comments">North Wales</option>
+                      <option value="comments">North Yorkshire</option>
+                      <option value="comments">Northallerton (HMP)</option>
+                    </select>
+                  </div>
                 </div>
+                
+
 
                 <a href="index1.html" role="button" draggable="false" class="govuk-button govuk-button--start" data-module="govuk-button">
                 Start assessment
