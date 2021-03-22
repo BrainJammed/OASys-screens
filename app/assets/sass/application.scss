@@ -23,6 +23,7 @@ $govuk-assets-path: '/govuk/assets/';
 // moj components
 @import "node_modules/@ministryofjustice/frontend/moj/all";
 
+
 //NEEDS
 
 .hiddenWeapon {
@@ -255,8 +256,8 @@ $govuk-assets-path: '/govuk/assets/';
 }
 
 .govuk-summary-list__key {
-	font-weight: 400 !important;
-	color: #505a5f;
+	font-weight: 700 !important;
+	color: #0c0b0b;
 }
 
 .fontWeight {
