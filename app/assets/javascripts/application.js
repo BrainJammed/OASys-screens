@@ -141,6 +141,10 @@ $( document ).ready(function() {
       }
   });
 
+$('input.example1').on('change', function() {
+    $('input.example').not(this).prop('checked', false);  
+});
+
 
 
   	
