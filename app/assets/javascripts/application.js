@@ -15,6 +15,18 @@ $(document).ready(function () {
 
 $( document ).ready(function() {
 
+  $("#concernsInRelationYes").click(function(){
+      $(".contactSocialServices").show();
+  });
+
+  $("#concernsInRelationNo").click(function(){
+      $(".contactSocialServices").hide();
+  });
+
+  $("#concernsInRelationDont").click(function(){
+      $(".contactSocialServices").hide();
+  });
+
 
 
   $("#interviewYes").click(function(){
