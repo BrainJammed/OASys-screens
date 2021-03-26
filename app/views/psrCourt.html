@@ -178,7 +178,7 @@ Case summary
 
             <h3 class="govuk-heading-l">RSR analysis (placeholder)</h3>
 
-             <div class="govuk-form-group">
+             <!-- <div class="govuk-form-group">
                 <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--m" for="event-name">
                     Number of court appearances at which convicted, or received a conditional or absolute discharge aged under 18 years
                   </label>
@@ -192,6 +192,41 @@ Case summary
                   </label>
                 </h1>
                 <input class="govuk-input govuk-input--width-3" id="width-3" name="width-3" type="text" value="">
+              </div> -->
+               <div class="govuk-form-group ">
+                <fieldset class="govuk-fieldset" role="group" aria-describedby="passport-issued-hint">
+                  <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                    <h1 class="govuk-fieldset__heading">
+                      Date of current conviction
+                    </h1>
+                  </legend>
+                  <div id="passport-issued-hint" class="govuk-hint">
+                    For example, 12 11 2007
+                  </div>
+                  <div class="govuk-date-input" id="passport-issued">
+                    <div class="govuk-date-input__item">
+                      <div class="govuk-form-group">
+                        <label class="govuk-label govuk-date-input__label" for="passport-issued-day">
+                          Day
+                        </label>
+                        <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-day" name="passport-issued-day" type="text" pattern="[0-9]*" inputmode="numeric" value="12"></div>
+                    </div>
+                    <div class="govuk-date-input__item">
+                      <div class="govuk-form-group">
+                        <label class="govuk-label govuk-date-input__label" for="passport-issued-month">
+                          Month
+                        </label>
+                        <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-month" name="passport-issued-month" type="text" pattern="[0-9]*" inputmode="numeric" value="12"></div>
+                    </div>
+                    <div class="govuk-date-input__item">
+                      <div class="govuk-form-group">
+                        <label class="govuk-label govuk-date-input__label" for="passport-issued-year">
+                          Year
+                        </label>
+                        <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="passport-issued-year" name="passport-issued-year" type="text" pattern="[0-9]*" inputmode="numeric" value="2020"></div>
+                    </div>
+                  </div>
+                </fieldset>
               </div>
 
               <div class="govuk-form-group ">
@@ -230,8 +265,24 @@ Case summary
                 </fieldset>
               </div>
 
-              
+              <div class="govuk-form-group">
+                <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--m" for="event-name">
+                    Total number of sanctions
+                  </label>
+                </h1>
+                <input class="govuk-input govuk-input--width-3" id="width-3" name="width-3" type="text" value="2">
+              </div>
 
+              <div class="govuk-form-group">
+                <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--m" for="event-name">
+                    How many of the total number of sanctions involved violent offences? 
+                  </label>
+                </h1>
+                <input class="govuk-input govuk-input--width-3" id="width-3" name="width-3" type="text" value="">
+              </div>
+
+              
+<!-- 
               <div class="govuk-form-group">
                 <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--m" for="event-name">
                     Age at first conviction, conditional or absolute discharge (record in years)
@@ -254,45 +305,11 @@ Case summary
                   </label>
                 </h1>
                 <input class="govuk-input govuk-input--width-3" id="width-3" name="width-3" type="text" value="">
-              </div>
+              </div> -->
 
 
 
-               <div class="govuk-form-group ">
-                <fieldset class="govuk-fieldset" role="group" aria-describedby="passport-issued-hint">
-                  <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
-                    <h1 class="govuk-fieldset__heading">
-                      Date of current conviction
-                    </h1>
-                  </legend>
-                  <div id="passport-issued-hint" class="govuk-hint">
-                    For example, 12 11 2007
-                  </div>
-                  <div class="govuk-date-input" id="passport-issued">
-                    <div class="govuk-date-input__item">
-                      <div class="govuk-form-group">
-                        <label class="govuk-label govuk-date-input__label" for="passport-issued-day">
-                          Day
-                        </label>
-                        <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-day" name="passport-issued-day" type="text" pattern="[0-9]*" inputmode="numeric" value="12"></div>
-                    </div>
-                    <div class="govuk-date-input__item">
-                      <div class="govuk-form-group">
-                        <label class="govuk-label govuk-date-input__label" for="passport-issued-month">
-                          Month
-                        </label>
-                        <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-month" name="passport-issued-month" type="text" pattern="[0-9]*" inputmode="numeric" value="12"></div>
-                    </div>
-                    <div class="govuk-date-input__item">
-                      <div class="govuk-form-group">
-                        <label class="govuk-label govuk-date-input__label" for="passport-issued-year">
-                          Year
-                        </label>
-                        <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="passport-issued-year" name="passport-issued-year" type="text" pattern="[0-9]*" inputmode="numeric" value="2020"></div>
-                    </div>
-                  </div>
-                </fieldset>
-              </div>
+              
 
               <div class="govuk-form-group">
                 <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
@@ -323,7 +340,32 @@ Case summary
                 <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
                   <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
                     <h1 class="govuk-fieldset__heading">
-                      Does the current sexual offence have a stranger victim?                  
+                      Does the current offence have a sexual motivation?              
+                    </h1>
+                  </legend>
+                  <div class="govuk-radios govuk-radios--inline">
+                    <div class="govuk-radios__item">
+                      <input class="govuk-radios__input" id="sexualOffenceYes" name="sexualOffence" type="radio" value="yes">
+                      <label class="govuk-label govuk-radios__label" for="changed-name">
+                        Yes
+                      </label>
+                    </div>
+                    <div class="govuk-radios__item">
+                      <input class="govuk-radios__input" id="sexualOffenceNo" name="sexualOffence" type="radio" value="no">
+                      <label class="govuk-label govuk-radios__label" for="changed-name-2">
+                        No
+                      </label>
+                    </div>
+                  </div>
+
+                </fieldset>
+              </div>
+
+              <div class="govuk-form-group hiddenDate">
+                <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+                  <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                    <h1 class="govuk-fieldset__heading">
+                      Does the current offence involve a victim who was a stranger?               
                     </h1>
                   </legend>
                   <div class="govuk-radios govuk-radios--inline">
@@ -405,7 +447,6 @@ Case summary
               <div class="govuk-form-group hiddenDate">
                 <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--m" for="event-name">
                     Number of previous or current sanctions involving indecent child image sexual or sexually motivated offences
-
                   </label>
                 </h1>
                 <input class="govuk-input govuk-input--width-3" id="width-3" name="width-3" type="text">
@@ -423,7 +464,7 @@ Case summary
                 <fieldset class="govuk-fieldset" role="group" aria-describedby="passport-issued-hint">
                   <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
                     <h1 class="govuk-fieldset__heading">
-                      Date of commencement of community sentence or earliest possible release from custody
+                      Date of commencement of community sentence or earliest possible release from custody                      
                     </h1>
                   </legend>
                   <div id="passport-issued-hint" class="govuk-hint">
