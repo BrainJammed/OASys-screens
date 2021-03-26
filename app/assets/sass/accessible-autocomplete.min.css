@@ -22,8 +22,6 @@
   width: 50px;
 }
 
-autocomplete__menu autocomplete__menu--inline autocomplete__menu--hidden
-
 .autocomplete__hint{
   color:#b1b4b6;position:absolute
 }
