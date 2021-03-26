@@ -36,7 +36,7 @@ $govuk-assets-path: '/govuk/assets/';
 .autocomplete__input{
   background-color:transparent;
   position:relative;
-  width: 50px;
+  width: 615px;
   font-size: 19px !important;
 }
 
@@ -57,7 +57,7 @@ $govuk-assets-path: '/govuk/assets/';
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
   margin-bottom:0;
-  width:374px;
+  width:615px;
 }
 
 .autocomplete__input--focused{
@@ -89,7 +89,7 @@ $govuk-assets-path: '/govuk/assets/';
   margin:0;
   max-height:342px;overflow-x:hidden;
   padding:0;
-  width:100%;
+  width:611px !important;
   width:calc(100% - 4px);
   font-family: "GDS Transport",arial,sans-serif;
   font-size: 19px;
