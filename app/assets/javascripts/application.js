@@ -15,6 +15,14 @@ $(document).ready(function () {
 
 $( document ).ready(function() {
 
+  $("#covitionForFirearmYes").click(function(){
+      $(".hidePreviousCurrent").show();
+  });
+
+  $("#covitionForFirearmNo").click(function(){
+      $(".hidePreviousCurrent").hide();
+  });
+
   $("#concernsInRelationYes").click(function(){
       $(".contactSocialServices").show();
   });

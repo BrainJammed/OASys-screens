@@ -436,7 +436,7 @@ Case summary
                     </div>
                 </div>
 
-                <div class="govuk-checkboxes__item">
+               <!--  <div class="govuk-checkboxes__item">
                     <input class="govuk-checkboxes__input" id="firearm" name="firearm" type="checkbox" value="Unemployed now or on release" data-aria-controls="conditional-firearm">
                     <label class="govuk-label govuk-checkboxes__label" for="waste-3">
                       Possession of a firearm with intent to endanger life or resist arrest
@@ -465,7 +465,7 @@ Case summary
                         </div>
                       </fieldset>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="govuk-checkboxes__item">
                     <input class="govuk-checkboxes__input" id="racially" name="racially" type="checkbox" value="Unemployed now or on release" data-aria-controls="conditional-racially">
@@ -601,10 +601,87 @@ Case summary
                     </div>
                 </div>
                 </div>
-
-              
           </fieldset>
         </div>
+
+
+        <div class="govuk-form-group">
+          <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+              <h1 class="govuk-fieldset__heading">
+                 Has the individual been convicted of possession of a firearm with intent to endanger life or resist arrest?
+              </h1>
+            </legend>
+            <div class="govuk-radios govuk-radios--inline">
+              <div class="govuk-radios__item">
+                <input class="govuk-radios__input" id="covitionForFirearmYes" name="covitionForFirearm" type="radio" value="yes">
+                <label class="govuk-label govuk-radios__label" for="changed-name">
+                  Yes
+                </label>
+              </div>
+              <div class="govuk-radios__item">
+                <input class="govuk-radios__input" id="covitionForFirearmNo" name="covitionForFirearm" type="radio" value="no">
+                <label class="govuk-label govuk-radios__label" for="changed-name-2">
+                  No
+                </label>
+              </div>
+            </div>
+
+          </fieldset>
+        </div>
+
+<!--         <div class="govuk-form-group hidePreviousCurrent">
+          <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+              <h1 class="govuk-fieldset__heading">
+                 Is the conviction of possession of a firearm for a current or a previous offence?
+              </h1>
+            </legend>
+            <div class="govuk-radios govuk-radios--inline">
+              <div class="govuk-radios__item">
+                <input class="govuk-radios__input" id="changed-name" name="changed-name" type="radio" value="yes">
+                <label class="govuk-label govuk-radios__label" for="changed-name">
+                  Current 
+                </label>
+              </div>
+              <div class="govuk-radios__item">
+                <input class="govuk-radios__input" id="changed-name-2" name="changed-name" type="radio" value="no">
+                <label class="govuk-label govuk-radios__label" for="changed-name-2">
+                  Previous
+                </label>
+              </div>
+            </div>
+
+          </fieldset>
+        </div> -->
+
+        <div class="govuk-form-group hidePreviousCurrent">
+          <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
+            <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+              <h1 class="govuk-fieldset__heading">
+                Is the conviction of possession of a firearm for a current or a previous offence?
+              </h1>
+            </legend>
+            <div class="govuk-checkboxes">
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="waste" name="waste" type="checkbox" value="carcasses">
+                <label class="govuk-label govuk-checkboxes__label" for="waste">
+                  Current
+                </label>
+              </div>
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="waste-2" name="waste" type="checkbox" value="mines">
+                <label class="govuk-label govuk-checkboxes__label" for="waste-2">
+                  Previous
+                </label>
+              </div>
+            </div>
+
+          </fieldset>
+        </div>
+
+
+
 
         <div class="govuk-form-group">
                   <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
