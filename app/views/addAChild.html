@@ -164,12 +164,21 @@ Case summary
                 </div>
 
                 <div class="govuk-form-group">
-                  <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--m" for="width-3">
+                  <h1 class="govuk-label-wrapper">
+                    <label class="govuk-label govuk-label--m" for="width-2">
                       Age
                     </label>
+                    <div id="sort-code-hint" class="govuk-hint">
+                      Enter an age in years from 0 to 17
+                    </div>
                   </h1>
                   <input class="govuk-input govuk-input--width-3" id="width-3" name="event-name" type="text">
                 </div>
+
+
+
+
+
 
                 <div class="govuk-form-group">
                     <fieldset class="govuk-fieldset" role="group" aria-describedby="passport-issued-hint">
@@ -209,29 +218,41 @@ Case summary
                   </div>
 
                   <div class="govuk-form-group">
-                      <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
-                        <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
-                          <h1 class="govuk-fieldset__heading">
-                            Gender
-                          </h1>
-                        </legend>
-                        <div class="govuk-radios govuk-radios--inline">
-                          <div class="govuk-radios__item">
-                            <input class="govuk-radios__input" id="changed-name" name="changed-name" type="radio" value="yes">
-                            <label class="govuk-label govuk-radios__label" for="changed-name">
-                              Male
-                            </label>
-                          </div>
-                          <div class="govuk-radios__item">
-                            <input class="govuk-radios__input" id="changed-name-2" name="changed-name" type="radio" value="no">
-                            <label class="govuk-label govuk-radios__label" for="changed-name-2">
-                              Female
-                            </label>
-                          </div>
+                    <fieldset class="govuk-fieldset">
+                      <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                        <h1 class="govuk-fieldset__heading">
+                          Gender
+                        </h1>
+                      </legend>
+                      <div class="govuk-radios">
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="where-do-you-live" name="where-do-you-live" type="radio" value="england">
+                          <label class="govuk-label govuk-radios__label" for="where-do-you-live">
+                            Male
+                          </label>
                         </div>
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="where-do-you-live-2" name="where-do-you-live" type="radio" value="scotland">
+                          <label class="govuk-label govuk-radios__label" for="where-do-you-live-2">
+                            Female
+                          </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="where-do-you-live-3" name="where-do-you-live" type="radio" value="wales">
+                          <label class="govuk-label govuk-radios__label" for="where-do-you-live-3">
+                            Not known
+                          </label>
+                        </div>
+                        <div class="govuk-radios__item">
+                          <input class="govuk-radios__input" id="where-do-you-live-4" name="where-do-you-live" type="radio" value="northern-ireland">
+                          <label class="govuk-label govuk-radios__label" for="where-do-you-live-4">
+                            Not specified
+                          </label>
+                        </div>
+                      </div>
 
-                      </fieldset>
-                    </div>
+                    </fieldset>
+                  </div>
 
                     <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
 
